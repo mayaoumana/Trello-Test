@@ -1,0 +1,51 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=-37680
+END=7766
+title=Test Cartes Créer Tableau
+[CHAPTER]
+TIMEBASE=1/1000
+START=24070
+END=53249
+title=Test Cartes Fermer un Tableau
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=null
+title=Test Cartes Suppression un tableau
+[CHAPTER]
+TIMEBASE=1/1000
+START=58916
+END=82444
+title=Test Cartes Ajouter une carte
+[CHAPTER]
+TIMEBASE=1/1000
+START=82186
+END=105981
+title=Test Cartes Ajouter un membre à la carte
+[CHAPTER]
+TIMEBASE=1/1000
+START=102376
+END=129791
+title=Test Cartes Ajouter une date début et une date de fin à la carte
+[CHAPTER]
+TIMEBASE=1/1000
+START=136922
+END=157217
+title=Test Cartes Ajouter un fichier à la carte
+[CHAPTER]
+TIMEBASE=1/1000
+START=162616
+END=177523
+title=Test Cartes Déplacer une carte
+[CHAPTER]
+TIMEBASE=1/1000
+START=167679
+END=192445
+title=Test Cartes Supprimer une carte
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=null
+title=Test Cartes API creat a card request
