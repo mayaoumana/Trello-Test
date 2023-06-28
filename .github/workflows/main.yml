@@ -1,11 +1,11 @@
-name: Chrome
-on: push
+name: Add Action
+on:
+ push:
+   branches:
+     - main
 jobs:
-  chrome:
-    runs-on: ubuntu-22.04
-    name: E2E on Chrome
-    steps:
-      - uses: actions/checkout@v3
-      - uses: cypress-io/github-action@v5
-        with:
-          browser: chrome
+ Cypress-Test:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Checkout GitCode
+       uses: actions/checkout@v2
