@@ -59,7 +59,7 @@ describe('Test Cartes', () => {
      
     })
 
-    it.skip('Suppression un tableau', () => {
+    it('Suppression un tableau', () => {
       //Connexion
       cy.login();
 
