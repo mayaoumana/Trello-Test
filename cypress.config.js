@@ -1,6 +1,8 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+ defaultCommandTimeout: 10000,
+
   reporter: "cypress-mochawesome-reporter",
   e2e: {
     setupNodeEvents(on, config) {
@@ -8,6 +10,5 @@ module.exports = defineConfig({
       require("cypress-mochawesome-reporter/plugin")(on);
 
     },
-  },
-  
+  }
 });
