@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
+      "test": "node_modules\\.bin\\cypress run --headed --browser chrome",
+      "runtests": "npm run test -- "
+    
   },
   "keywords": [],
   "author": "",
@@ -19,4 +22,5 @@
     "cypress-mochawesome-reporter": "^3.5.1",
     "cypress-real-events": "^1.8.1"
   }
+  
 }
